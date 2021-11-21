@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+body{
+  overflow-x: hidden;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-section{
+  width: 100vw;
+  position: relative;
+  color: #fff;
+  height: 70vh;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+.header-img{
+  height: 70vh;
+  width: 100%;
+}
+.header-title{
+  position: absolute;
+  top: 45vh;
+  left: 6vw;
+}
+.header-text{
+  position: absolute;
+  height: 5rem;
+  top: 55vh;
+  left: 6vw;
+  overflow: hidden;
+  margin-right: 5vw;
+}
+.movie-comp{
+  display: flex;
+  padding: 1.1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-section{
+  width: 20vw;
+  margin: 1rem;
+  position: relative;
+}
+.main-title{
+position: absolute;
+top:1rem;
+left: 1rem;color: #fff;
+
+}
+.btn-add{
+  display: inline-block;
+  
+ 
+}
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
+  
+  font-size: 15px !important;
+}
+/* .button-add{
+  position: absolute;
+} */
+.button2{
+ float: right;
+  /* position: absolute; */
+}
+.main-img{
+  height:40vh ;
+}
+.main-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-movie{
+  padding: 3.2rem;
+}
+.list-table{
+  padding: 3.2rem;
+  overflow:auto;
+}
+@media screen and (max-width:420px) {
+  .header-section{
+    height: 35vh;
+  }
+  .header-img{
+    height: 35vh;
+  }
+  .header-title{
+    top:13vh;
+    left: 5vw;
+    font-size: 21px;
+  }
+  .header-text{
+    top:21vh;
+    left:5vw;
+  }
+  .main-section{
+    width: 80vw !important;
+  }
+  .h2, h2 {
+    font-size: 1.5rem;
+}
+  
+}
+@media screen and (max-width:850px){
+  .main-section{
+    width: 26vw;
+  }
+}
